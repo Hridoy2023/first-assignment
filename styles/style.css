@@ -5,7 +5,7 @@
 ]
 .header-container{
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 271px;
     
 
 }
@@ -19,6 +19,8 @@ width: 525px;
 height: 228px;
 left: 845px;
 top: 216px;
+margin-right: 230px;
+
 }
 .first-header{
     font-family: 'Work Sans';
@@ -36,6 +38,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 26px;
+font-weight: 400;
+font-size: 16px;
+text-align: right;
+margin-top: 24px;
+margin-bottom: 30px;
+
 /* or 162% */
 
 text-align: right;
@@ -48,11 +56,29 @@ color: #FFFFFF;
     height: 64px;
     left: 1210px;
     top: 578px;
+    border-radius: 5px;
+    color: #005FAC;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: right;
+ 
     
 }
 
 .main-container{
     display: flex;
+    margin-top: 271px;margin-bottom: 75px;
+  
+}
+.main-description{
+margin-top: 510px;
+margin-left: 62px;
+width: 441px;
+height: 408px;
+
+
+
 }
 .main-heading{
     font-family: 'Work Sans';
@@ -60,6 +86,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 40px;
 line-height: 47px;
+margin-bottom: 24px;
 }
 .failiur-desc{
     font-family: 'Work Sans';
@@ -71,6 +98,8 @@ width: 416px;
 height: 104px;
 left: 761px;
 top: 1473px;
+margin-bottom: 18px;
+color: #444343;
 
 }
 .skill-container{
@@ -100,6 +129,7 @@ color: #737272;
 }
 .img-icon{
     align-items: center;
+    
 }
 .show-bg{
 background: url('../images/watch.png');
@@ -119,6 +149,33 @@ position:absolute;
     position: relative;
     color: white;
 opacity: 0.8;   
+border-radius: 8px;
+}
+.gradiant{
+    margin: 130px 230px;
+}
+.gradiant-head{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+width: 459px;
+height: 94px;
+left: 294px;
+    margin: 60px;
+    margin-top: 60px;
+    padding-top: 60px;
+}
+.secondary-btn{
+    width: 160px;
+height: 64px;
+left: 294px;
+border: white;
+border-radius: 5px;
+margin-left: 64px;
+margin-bottom:59px;
+
 }
 .footer-container{
    color: white;
@@ -138,12 +195,20 @@ opacity: 0.8;
 .footer-heading1{
     font-weight: 700;
     font-size: 45px;
+    margin-bottom: 16px;
+
+}
+.phn-no{
+    margin-top: 16px;
+    margin-bottom: 32px;
 }
 .footer-desc-heading{
     font-weight: 600;
 font-size: 25px;
 margin-bottom: 31px;
-
+}
+.future-desc{
+    margin-bottom: 24px ;
 }
 .email{
     width: 325px;
