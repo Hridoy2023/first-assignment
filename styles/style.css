@@ -1,20 +1,15 @@
+/* use * for select full page  */
 *{
     margin: 0;
     padding: 0;
 }
-]
 .header-container{
     position: relative;
     margin-bottom: 271px;
-    
 
 }
-.header-img{
-   
-}
-
 .header-div{
-    position: absolute;
+position: absolute;
 width: 525px;
 height: 228px;
 left: 845px;
@@ -31,8 +26,8 @@ line-height: 76px;
 text-align: right;
 color: white;
 }
+/* use color white because bg is blue */
 .header-description{
-
 font-family: 'Work Sans';
 font-style: normal;
 font-weight: 400;
@@ -43,27 +38,19 @@ font-size: 16px;
 text-align: right;
 margin-top: 24px;
 margin-bottom: 30px;
-
-/* or 162% */
-
-text-align: right;
-
 color: #FFFFFF;
-
 }
 .primary-btn{
     width: 160px;
     height: 64px;
-    left: 1210px;
-    top: 578px;
     border-radius: 5px;
     color: #005FAC;
     font-family: 'Work Sans';
     font-weight: 600;
     font-size: 20px;
     justify-content: right;
- 
-    
+    border: white;
+    margin-left: 360px;
 }
 
 .main-container{
@@ -71,17 +58,19 @@ color: #FFFFFF;
     margin-top: 271px;margin-bottom: 75px;
   
 }
+/* use margin for picture position */
+.person-img{
+margin-left: 206px;
+}
 .main-description{
 margin-top: 510px;
 margin-left: 62px;
 width: 441px;
 height: 408px;
 
-
-
 }
 .main-heading{
-    font-family: 'Work Sans';
+font-family: 'Work Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
@@ -104,7 +93,7 @@ color: #444343;
 }
 .skill-container{
     display: flex;
-    margin: 130px 229px;
+    margin: 130px 240px;
     gap: 86px;
     
 }
@@ -113,8 +102,6 @@ color: #444343;
 font-size: 30px;
 font-weight: 700;
 line-height: 35px;
-letter-spacing: 0em;
-/* text-align: center; */
 color: #151414;
 margin-top: 24px;
 margin-bottom: 16px;
@@ -128,9 +115,10 @@ text-align: center;
 color: #737272;
 }
 .img-icon{
-    align-items: center;
+align-items: center;
     
 }
+/* ../use for going uper folder */
 .show-bg{
 background: url('../images/watch.png');
 color: white;
@@ -143,19 +131,19 @@ display: flex;
 position:absolute;
 }
 .show-gradient{
-    background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
-    width: 1140px;
-    height: 300px;
-    position: relative;
-    color: white;
-opacity: 0.8;   
+background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+width: 1140px;
+height: 300px;
+position: relative;
+color: white;
+opacity: 1;   
 border-radius: 8px;
 }
-.gradiant{
-    margin: 130px 230px;
+.gradient{
+margin: 130px 230px;
 }
-.gradiant-head{
-    font-family: 'Work Sans';
+.gradient-head{
+font-family: 'Work Sans';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
@@ -163,25 +151,30 @@ line-height: 47px;
 width: 459px;
 height: 94px;
 left: 294px;
-    margin: 60px;
-    margin-top: 60px;
-    padding-top: 60px;
+margin: 60px;
+padding-top: 60px;
 }
+/* .secondary-btn use for call me button */
 .secondary-btn{
-    width: 160px;
+width: 160px;
 height: 64px;
 left: 294px;
 border: white;
 border-radius: 5px;
 margin-left: 64px;
 margin-bottom:59px;
-
+font-weight: 600;
+font-size: 20px;
+color: #005FAC;
 }
+/* use color white because the bg is black */
 .footer-container{
-   color: white;
-   background-color:black ;
-   display: flex;
-   padding: 200px;
+color: white;
+background-color:#151414; ;
+display: flex;
+padding: 200px;
+width: 1600px;
+height: 577px;
 
 }
 .footer-description{
@@ -210,8 +203,9 @@ margin-bottom: 31px;
 .future-desc{
     margin-bottom: 24px ;
 }
+
 .email{
-    width: 325px;
+width: 325px;
 height: 64px;
 background: #151414;
 border: 1px solid white;
@@ -221,7 +215,7 @@ padding-left: 20px;
 margin-bottom:16px;
 }
 .sub-btn{
-    background: #005FAC;
+background: #005FAC;
 border-radius: 8px;
 width: 170.11px;
 height: 64px;
