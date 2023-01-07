@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+]
+.header-container{
+    position: relative;
+    margin-bottom: 200px;
+    
+
+}
+.header-img{
+   
+}
+
+.header-div{
+    position: absolute;
+width: 525px;
+height: 228px;
+left: 845px;
+top: 216px;
+}
+.first-header{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: right;
+color: white;
+}
+.header-description{
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: right;
+
+color: #FFFFFF;
+
+}
+.primary-btn{
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    
+}
+
+.main-container{
+    display: flex;
+}
+.main-heading{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+}
+.failiur-desc{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+width: 416px;
+height: 104px;
+left: 761px;
+top: 1473px;
+
+}
+.skill-container{
+    display: flex;
+    margin: 130px 229px;
+    gap: 86px;
+    
+}
+.skill-title{
+    font-family: Work Sans;
+font-size: 30px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+/* text-align: center; */
+color: #151414;
+margin-top: 24px;
+margin-bottom: 16px;
+
+}
+.skill-description{
+    font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #737272;
+}
+.img-icon{
+    align-items: center;
+}
+.show-bg{
+background: url('../images/watch.png');
+color: white;
+background-size: cover;
+width: 1140px;
+height: 300px;
+align-items: center;
+justify-content: center;
+display: flex;
+position:absolute;
+}
+.show-gradient{
+    background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    width: 1140px;
+    height: 300px;
+    position: relative;
+    color: white;
+opacity: 0.8;   
+}
+.footer-container{
+   color: white;
+   background-color:black ;
+   display: flex;
+   padding: 200px;
+
+}
+.footer-description{
+    width: 485px;
+    height: 317px;
+   margin-left: 196px;
+}
+.subscribe{
+    margin-left: 331px;
+}
+.footer-heading1{
+    font-weight: 700;
+    font-size: 45px;
+}
+.footer-desc-heading{
+    font-weight: 600;
+font-size: 25px;
+margin-bottom: 31px;
+
+}
+.email{
+    width: 325px;
+height: 64px;
+background: #151414;
+border: 1px solid white;
+border-radius: 8px;
+color: color #f3f3f3;;
+padding-left: 20px;
+margin-bottom:16px;
+}
+.sub-btn{
+    background: #005FAC;
+border-radius: 8px;
+width: 170.11px;
+height: 64px;
+color: #FFFFFF;
+}
